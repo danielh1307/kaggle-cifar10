@@ -1,0 +1,16 @@
+name: kaggle-cifar10-env
+
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - pytorch
+  - torchvision
+  - pytorch-cuda
